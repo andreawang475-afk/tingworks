@@ -67,7 +67,7 @@ export default function Home() {
             {/* 逃离伊甸园 */}
             <div className="bg-white rounded-2xl shadow-lg p-3 rotate-2 hover:rotate-0 transition-transform">
               <img
-                src="/images/eden.jpg"
+                src="/eden.jpg"
                 alt="逃离伊甸园"
                 className="rounded-xl aspect-video object-cover w-full"
               />
@@ -79,7 +79,7 @@ export default function Home() {
             {/* 咖香漫归途 */}
             <div className="bg-white rounded-2xl shadow-lg p-3 -rotate-2 mt-6 ml-8 hover:rotate-0 transition-transform">
               <img
-                src="/images/coffee.png"
+                src="/coffee.png"
                 alt="咖香漫归途"
                 className="rounded-xl aspect-video object-cover w-full"
               />
