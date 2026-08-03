@@ -25,12 +25,12 @@ export default function AboutPage() {
           </p>
 
           <h1 className="text-5xl font-bold leading-tight mb-6">
-            你好，我是 Ting
+            嗨，我是王婷婷
           </h1>
 
           <p className="text-lg text-gray-600 leading-relaxed mb-6">
             我关注品牌、市场与 AIGC 内容创作，
-            也喜欢用影像记录人与地方之间的关系。
+            也喜欢用影像记录不同的故事。
             从短视频、纪录片式表达到AI辅助创作，
             我希望做出既有情绪、也有信息密度的作品。
           </p>
@@ -38,7 +38,7 @@ export default function AboutPage() {
           <p className="text-gray-600 leading-relaxed mb-8">
             清华大学传播学硕士 ｜ 浙江大学传播学学士。<br/>
             B站自媒体播放量 120万+，
-            有原创影像作品与行业实习经历。
+            有原创影像作品与品牌、市场行业实习经历。
           </p>
 
           {/* 技能标签 */}
@@ -49,8 +49,6 @@ export default function AboutPage() {
               "剪辑制作",
               "AIGC",
               "内容运营",
-              "录音/采访",
-              "视觉叙事",
             ].map((skill) => (
               <span
                 key={skill}
