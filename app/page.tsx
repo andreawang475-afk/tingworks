@@ -20,19 +20,20 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* 左侧文字 */}
           <div>
-            <p className="text-[#FF6B35] font-medium text-sm mb-3">PORTFOLIO · 2025</p>
+            <p className="text-[#FF6B35] font-medium text-sm mb-3">PORTFOLIO · 2026</p>
             <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-5">
               用影像<br/>讲述故事
             </h1>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               品牌 · 市场 · AIGC 内容创作<br/>
-              清华大学传播学硕士 ｜ 浙江大学本科
+              清华大学传播学硕士 ｜ 浙江大学传播学学士
             </p>
+
             {/* 数据亮点 */}
             <div className="flex gap-8 mb-8">
               <div>
                 <div className="text-3xl font-bold text-[#FF6B35]">120万+</div>
-                <div className="text-xs text-gray-500 mt-1">视频播放量</div>
+                <div className="text-xs text-gray-500 mt-1">B站自媒体播放量</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-[#FF6B35]">2部</div>
@@ -43,6 +44,7 @@ export default function Home() {
                 <div className="text-xs text-gray-500 mt-1">行业实习经历</div>
               </div>
             </div>
+
             {/* CTA 按钮 */}
             <div className="flex gap-4">
               <Link
@@ -60,19 +62,30 @@ export default function Home() {
             </div>
           </div>
 
-          {/* 右侧视频封面拼贴 */}
+          {/* 右侧视频封面拼贴（真实图片） */}
           <div className="relative">
-            <div className="bg-white rounded-2xl shadow-lg p-4 rotate-2 hover:rotate-0 transition-transform">
-              <div className="bg-gray-200 rounded-xl aspect-video flex items-center justify-center">
-                <span className="text-gray-500 text-sm">《逃离伊甸园》AIGC 短片</span>
-              </div>
-              <p className="text-xs text-gray-400 mt-2">编剧 + 视频制作 · 海峡杯三等奖</p>
+            {/* 逃离伊甸园 */}
+            <div className="bg-white rounded-2xl shadow-lg p-3 rotate-2 hover:rotate-0 transition-transform">
+              <img
+                src="/images/eden.jpg"
+                alt="逃离伊甸园"
+                className="rounded-xl aspect-video object-cover w-full"
+              />
+              <p className="text-xs text-gray-400 mt-2 px-1">
+                《逃离伊甸园》编剧 + 视频制作 · 海峡杯三等奖
+              </p>
             </div>
-            <div className="bg-white rounded-2xl shadow-lg p-4 -rotate-2 mt-6 ml-8 hover:rotate-0 transition-transform">
-              <div className="bg-gray-200 rounded-xl aspect-video flex items-center justify-center">
-                <span className="text-gray-500 text-sm">《咖香漫归途》纪录片</span>
-              </div>
-              <p className="text-xs text-gray-400 mt-2">策划 + 录音 · 人文湾区影像训练营</p>
+
+            {/* 咖香漫归途 */}
+            <div className="bg-white rounded-2xl shadow-lg p-3 -rotate-2 mt-6 ml-8 hover:rotate-0 transition-transform">
+              <img
+                src="/images/coffee.png"
+                alt="咖香漫归途"
+                className="rounded-xl aspect-video object-cover w-full"
+              />
+              <p className="text-xs text-gray-400 mt-2 px-1">
+                《咖香漫归途》策划 + 录音 · 人文湾区影像训练营
+              </p>
             </div>
           </div>
         </div>
@@ -80,7 +93,7 @@ export default function Home() {
 
       {/* 底部 */}
       <footer className="text-center text-xs text-gray-400 py-8">
-        © 2025 tingworks · 用影像讲述故事
+        © 2026 tingworks · 用影像讲述故事
       </footer>
     </main>
   );
