@@ -131,7 +131,7 @@ export default function EdenPage() {
           <div className="bg-white rounded-2xl p-6 shadow-sm">
             <h3 className="font-bold mb-3">标签</h3>
             <div className="flex flex-wrap gap-2">
-              {["AIGC", "短片", "编剧", "剪辑", "独立制作"].map((t) => (
+              {["AIGC", "短片", "编剧", "制作"].map((t) => (
                 <span key={t} className="text-xs px-2 py-1 rounded-full bg-gray-100 text-gray-600">
                   {t}
                 </span>
