@@ -61,7 +61,7 @@ export default function CoffeePage() {
           </div>
           {/* 提示文字 */}
           <p className="absolute bottom-5 left-5 text-white text-sm font-medium drop-shadow">
-            在腾讯视频观看完整版 →
+            在央视频观看完整版 →
           </p>
         </a>
       </section>
@@ -100,12 +100,12 @@ export default function CoffeePage() {
             <ul className="space-y-3 text-gray-600 leading-relaxed list-disc pl-5">
               <li>
                 <strong>寻人：</strong>
-                在台山当地多方走访，从侨联、村委会到咖啡农圈层，
+                在台山当地多方走访，
                 筛选出既有"侨"的身份辨识度、又有真实创业故事的主人公。
               </li>
               <li>
                 <strong>勘场：</strong>
-                提前踩点咖啡种植园、烘焙工坊与计划中的文化展示馆选址，
+                提前踩点咖啡店与计划中的文化展示馆选址，
                 评估光线、动线、环境音，为拍摄日程做优先级排序。
               </li>
               <li>
@@ -127,7 +127,7 @@ export default function CoffeePage() {
             <ul className="space-y-2 text-gray-600 leading-relaxed list-disc pl-5">
               <li>入选 GREAT 湾区青年影视训练营「人文湾区 · 台山印象」展映</li>
               <li>完整经历一部纪录短片从选题、勘场、采访到归档的全流程</li>
-              <li>强化了"用人物驱动地方叙事"的创作方法论</li>
+              <li>锻炼提升了沟通与协作能力</li>
             </ul>
           </div>
         </div>
