@@ -39,7 +39,7 @@ const projects: Project[] = [
     role: "博主（文案/配音/剪辑）",
     tags: ["自媒体", "视频", "内容运营"],
     cover:"/bilibili-cover.png",
-    year: "2023–至今",
+    year: "2022–至今",
     highlight: "单条最高播放 24.9 万 · 累计 120 万+",
   },
   {
