@@ -31,21 +31,20 @@ export default function EdenPage() {
         <p className="text-[#FF6B35] font-medium text-sm mb-2">AIGC 短片 · 2025</p>
         <h1 className="text-5xl font-bold leading-tight mb-4">《逃离伊甸园》</h1>
         <p className="text-lg text-gray-600 max-w-2xl">
-          一部围绕「选择风暴」展开的 AIGC 剧情短片——
+          一部围绕「选择面对真实」展开的 AIGC 剧情短片——
           从剧本到画面，用 AI 工具完成从 0 到 1 的影像创作实验。
         </p>
       </section>
 
       {/* 视频区 */}
       <section className="max-w-6xl mx-auto px-8 pb-12">
-        <div className="rounded-2xl overflow-hidden bg-black aspect-video shadow-lg">
-          {/* 替换成你的真实视频链接，例如 B站 iframe 或 mp4 */}
-          <video
-            src="https://weixin.qq.com/sph/At9E4mfj4.mp4"
-            controls
-            className="w-full h-full"
-          ></video>
-        </div>
+       <iframe
+         src="https://player.youku.com/embed/XNjUwMDM2MzM4OA=="
+         scrolling="no"
+         frameBorder="0"
+         allowFullScreen
+         className="w-full h-full"
+       ></iframe>
       </section>
 
       {/* 信息网格 */}
@@ -56,7 +55,7 @@ export default function EdenPage() {
             <h2 className="text-2xl font-bold mb-3">我的角色</h2>
             <p className="text-gray-600 leading-relaxed">
               担任 <strong>编剧 + 视频制作</strong>。从选题、世界观搭建、分场大纲、
-              对白打磨，到 AI 生图 / 生视频、剪辑节奏、音效与调色，全程独立完成。
+              对白打磨，到 AI 生图 / 生视频，参与全流程小组合作。
             </p>
           </div>
 
@@ -73,18 +72,14 @@ export default function EdenPage() {
                 用 AI 工具完成概念图、关键帧、镜头运动与风格统一，
                 再在剪辑软件中做节奏与情绪调度。
               </li>
-              <li>
-                <strong>声音设计：</strong>
-                配音、音效、配乐分层处理，让「风暴」既是视觉母题也是听觉母题。
-              </li>
-            </ul>
+              </ul>
           </div>
 
           <div>
             <h2 className="text-2xl font-bold mb-3">成果与复盘</h2>
             <ul className="space-y-2 text-gray-600 leading-relaxed list-disc pl-5">
               <li>首届「海峡杯」数字出版技能大赛 · <strong>三等奖</strong></li>
-              <li>验证了「编剧驱动 + AIGC 执行」的短片创作管线</li>
+              <li>熟悉各大 AIGC 工具与 AIGC 短片创作管线</li>
               <li>5 分钟短片在有限时长内完成起承转合与情绪闭环</li>
             </ul>
           </div>
