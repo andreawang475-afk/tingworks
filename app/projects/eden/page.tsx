@@ -36,20 +36,39 @@ export default function EdenPage() {
         </p>
       </section>
 
-      {/* 视频区 */}
+      {/* 视频区：封面 + 跳转优酷 */}
       <section className="max-w-6xl mx-auto px-8 pb-12">
-       <iframe
-         src="https://player.youku.com/embed/XNjUwMDM2MzM4OA=="
-         scrolling="no"
-         frameBorder="0"
-         allowFullScreen
-         className="w-full h-full"
-       ></iframe>
+        <a
+          href="https://v.youku.com/v_show/id_XNjUwMDM2MzM4OA==.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block relative w-full aspect-video rounded-2xl overflow-hidden shadow-lg group"
+        >
+          <img
+            src="/eden.jpg"
+            alt="逃离伊甸园"
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          />
+          {/* 遮罩 */}
+          <div className="absolute inset-0 bg-black/35 group-hover:bg-black/25 transition-colors" />
+          {/* 播放按钮 */}
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="w-20 h-20 rounded-full bg-white/90 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg">
+              <svg className="w-8 h-8 text-[#FF6B35] ml-1" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </div>
+          </div>
+          {/* 提示文字 */}
+          <p className="absolute bottom-5 left-5 text-white text-sm font-medium drop-shadow">
+            在优酷观看完整版 →
+          </p>
+        </a>
       </section>
 
       {/* 信息网格 */}
       <section className="max-w-6xl mx-auto px-8 pb-12 grid md:grid-cols-3 gap-8">
-        {/* 我的角色 */}
+        {/* 左侧正文 */}
         <div className="md:col-span-2 space-y-8">
           <div>
             <h2 className="text-2xl font-bold mb-3">我的角色</h2>
@@ -72,7 +91,7 @@ export default function EdenPage() {
                 用 AI 工具完成概念图、关键帧、镜头运动与风格统一，
                 再在剪辑软件中做节奏与情绪调度。
               </li>
-              </ul>
+            </ul>
           </div>
 
           <div>
@@ -85,7 +104,7 @@ export default function EdenPage() {
           </div>
         </div>
 
-        {/* 侧边信息卡 */}
+        {/* 右侧信息卡 */}
         <aside className="space-y-6">
           <div className="bg-white rounded-2xl p-6 shadow-sm">
             <h3 className="font-bold mb-3">项目信息</h3>
@@ -112,7 +131,7 @@ export default function EdenPage() {
           <div className="bg-white rounded-2xl p-6 shadow-sm">
             <h3 className="font-bold mb-3">标签</h3>
             <div className="flex flex-wrap gap-2">
-              {["AIGC", "短片", "编剧", "剪辑", "声音设计", "独立制作"].map((t) => (
+              {["AIGC", "短片", "编剧", "剪辑", "独立制作"].map((t) => (
                 <span key={t} className="text-xs px-2 py-1 rounded-full bg-gray-100 text-gray-600">
                   {t}
                 </span>
