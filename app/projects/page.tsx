@@ -29,7 +29,7 @@ const projects: Project[] = [
     role: "策划 + 录音",
     tags: ["纪录片", "策划", "采访"],
     cover: "/coffee.png",
-    year: "2025",
+    year: "2026",
     highlight: "GREAT 湾区青年影视训练营 · 人文湾区",
   },
   {
