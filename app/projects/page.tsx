@@ -13,6 +13,16 @@ type Project = {
 
 const projects: Project[] = [
   {
+    slug: "infinity-nikki-x-yili",
+    title: "无限暖暖 × 伊利绮炫联动",
+    subtitle: "品牌营销项目",
+    role: "市场品牌实习",
+    tags: ["品牌联动", "市场", "视觉"],
+    cover: "/nikki-qixuan.png",
+    year: "2026",
+    highlight: "联动 KV 小红书获 1.1 万赞",
+  },
+  {
     slug: "eden",
     title: "《逃离伊甸园》",
     subtitle: "AIGC 剧情短片",
@@ -51,16 +61,6 @@ const projects: Project[] = [
     cover: "/golden-hour.png",
     year: "2026",
     highlight: "无限暖暖 2.8 版本前瞻直播中场播出，介绍游戏内POI",
-  },
-  {
-    slug: "infinity-nikki-x-yili",
-    title: "无限暖暖 × 伊利绮炫联动",
-    subtitle: "品牌营销项目",
-    role: "市场品牌实习",
-    tags: ["品牌联动", "市场", "视觉"],
-    cover: "/nikki-qixuan.png",
-    year: "2026",
-    highlight: "联动 KV 小红书获 1.1 万赞",
   },
 ];
 
