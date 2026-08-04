@@ -40,7 +40,7 @@ const projects: Project[] = [
     tags: ["自媒体", "视频", "内容运营"],
     cover:"/bilibili-cover.png",
     year: "2022–2026",
-    highlight: "单条最高播放 24.9 万 · 累计 120 万+",
+    highlight: "单条最高播放 24.9 万 · 累计 130 万+",
   },
   {
     slug: "golden-hour",
