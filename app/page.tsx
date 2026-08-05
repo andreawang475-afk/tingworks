@@ -8,10 +8,18 @@ export default function Home() {
       <nav className="flex items-center justify-between px-8 py-5 max-w-6xl mx-auto">
         <span className="text-lg font-bold tracking-tight">tingworks</span>
         <div className="flex gap-6 text-sm">
-          <Link href="/about" className="hover:text-[#FF6B35] transition-colors">关于</Link>
-          <Link href="/experience" className="hover:text-[#FF6B35] transition-colors">经历</Link>
-          <Link href="/projects" className="hover:text-[#FF6B35] transition-colors">作品集</Link>
-          <Link href="/contact" className="hover:text-[#FF6B35] transition-colors">联系</Link>
+          <Link href="/about" className="hover:text-[#FF6B35] transition-colors">
+            关于
+          </Link>
+          <Link href="/experience" className="hover:text-[#FF6B35] transition-colors">
+            经历
+          </Link>
+          <Link href="/projects" className="hover:text-[#FF6B35] transition-colors">
+            作品集
+          </Link>
+          <Link href="/contact" className="hover:text-[#FF6B35] transition-colors">
+            联系
+          </Link>
         </div>
       </nav>
 
@@ -20,12 +28,14 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* 左侧文字 */}
           <div>
-            <p className="text-[#FF6B35] font-medium text-sm mb-3">PORTFOLIO · 2026</p>
+            <p className="text-[#FF6B35] font-medium text-sm mb-3">
+              PORTFOLIO · 2026
+            </p>
             <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-5">
-              用影像<br/>讲述故事
+              用影像<br />讲述故事
             </h1>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              品牌 · 市场 · AIGC 内容创作<br/>
+              品牌 · 市场 · AIGC 内容创作<br />
               清华大学传播学硕士 ｜ 浙江大学传播学学士
             </p>
 
@@ -62,52 +72,55 @@ export default function Home() {
             </div>
           </div>
 
-         {/* 右侧视频封面拼贴 */}
-         <div className="relative">
-           {/* 逃离伊甸园 */}
-           <div className="bg-white rounded-2xl shadow-lg p-3 rotate-2 hover:rotate-0 transition-transform">
-             <Link href="/projects/eden">
-               <div className="relative aspect-video rounded-xl overflow-hidden">
-                 <img
-                   src="/eden.jpg"
-                   alt="逃离伊甸园"
-                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                 />
-                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-                 <div className="absolute bottom-3 left-3 right-3 text-white">
-                   <p className="text-xs text-white/80">AIGC 短片 · 2025</p>
-                   <p className="font-bold text-base leading-tight">《逃离伊甸园》</p>
-                   <p className="text-xs text-white/80 mt-0.5">
-                     编剧 + 视频制作 · 海峡杯三等奖
-                   </p>
-                 </div>
-               </div>
-             </Link>
-           </div>
+          {/* 右侧视频封面拼贴 */}
+          <div className="relative">
+            {/* 逃离伊甸园 */}
+            <div className="bg-white rounded-2xl shadow-lg p-3 rotate-2 hover:rotate-0 transition-transform">
+              <Link href="/projects/eden">
+                <div className="relative aspect-video rounded-xl overflow-hidden">
+                  <img
+                    src="/eden.jpg"
+                    alt="逃离伊甸园"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                  <div className="absolute bottom-3 left-3 right-3 text-white">
+                    <p className="text-xs text-white/80">AIGC 短片 · 2025</p>
+                    <p className="font-bold text-base leading-tight">
+                      《逃离伊甸园》
+                    </p>
+                    <p className="text-xs text-white/80 mt-0.5">
+                      编剧 + 视频制作 · 海峡杯三等奖
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            </div>
 
-           {/* 无限暖暖 × 绮炫冰淇淋联动 */}
-           <div className="bg-white rounded-2xl shadow-lg p-3 -rotate-2 mt-6 ml-8 hover:rotate-0 transition-transform">
-             <Link href="/projects/nikki-qixuan">
-               <div className="relative aspect-[4/3] rounded-xl overflow-hidden">
-                 <img
-                   src="/nikki-qixuan.png"
-                   alt="无限暖暖 × 绮炫冰淇淋联动"
-                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                 />
-                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
-                 <div className="absolute bottom-3 left-3 right-3 text-white">
-                   <p className="text-xs text-white/80">品牌营销 · 2026</p>
-                   <p className="font-bold text-base leading-tight">
-                     无限暖暖 × 绮炫冰淇淋联动
-                   </p>
-                   <p className="text-xs text-white/80 mt-0.5">
-                     小红书 1.1 万赞 · 首周预售 9000+
-                   </p>
-                 </div>
-               </div>
-             </Link>
-           </div>
-         </div>
+            {/* 无限暖暖 × 绮炫冰淇淋联动 */}
+            <div className="bg-white rounded-2xl shadow-lg p-3 -rotate-2 mt-6 ml-8 hover:rotate-0 transition-transform">
+              <Link href="/projects/nikki-qixuan">
+                <div className="relative aspect-[4/3] rounded-xl overflow-hidden">
+                  <img
+                    src="/nikki-qixuan.png"
+                    alt="无限暖暖 × 绮炫冰淇淋联动"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
+                  <div className="absolute bottom-3 left-3 right-3 text-white">
+                    <p className="text-xs text-white/80">品牌营销 · 2026</p>
+                    <p className="font-bold text-base leading-tight">
+                      无限暖暖 × 绮炫冰淇淋联动
+                    </p>
+                    <p className="text-xs text-white/80 mt-0.5">
+                      小红书 1.1 万赞 · 首周预售 9000+
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* 底部 */}
