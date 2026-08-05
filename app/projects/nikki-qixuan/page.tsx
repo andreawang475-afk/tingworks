@@ -30,7 +30,7 @@ export default function NikkiQixuanPage() {
       <section className="max-w-6xl mx-auto px-8 pt-6 pb-10">
         <p className="text-[#FF6B35] font-medium text-sm mb-2">品牌营销 · 2026</p>
         <h1 className="text-5xl font-bold leading-tight mb-4">
-          无限暖暖 × 伊利绮炫冰淇淋联动
+          无限暖暖 × 绮炫冰淇淋联动
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl">
           从 0 到 1 策划「星河坠入绮境」跨界联动——
@@ -43,7 +43,7 @@ export default function NikkiQixuanPage() {
         <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-lg">
           <img
             src="/nikki-qixuan.png"
-            alt="无限暖暖×绮炫联动主视觉"
+            alt="无限暖暖×绮炫冰淇淋联动主视觉"
             className="w-full h-full object-cover"
           />
           {/* 半透明遮罩 + 标签 */}
@@ -53,7 +53,7 @@ export default function NikkiQixuanPage() {
                 主视觉 · 「星河坠入绮境」
               </p>
               <p className="text-white/70 text-xs mt-1">
-                无限暖暖 × 伊利绮炫 跨界联动
+                无限暖暖 × 绮炫冰淇淋 跨界联动
               </p>
             </div>
             <span className="text-xs px-3 py-1 rounded-full bg-white/20 text-white backdrop-blur-sm">
@@ -87,7 +87,7 @@ export default function NikkiQixuanPage() {
           <div>
             <h2 className="text-2xl font-bold mb-3">项目背景</h2>
             <p className="text-gray-600 leading-relaxed">
-              在叠纸游戏《无限暖暖》市场品牌实习期间，独立负责与伊利绮炫冰淇淋的
+              在叠纸游戏《无限暖暖》市场品牌实习期间，独立负责与绮炫冰淇淋的
               跨界联动全案策划。项目以「星河坠入绮境」为主题，线上发售联名冰淇淋礼包
               （含游戏道具兑换码及限定周边），线下在广州、南京、重庆、北京
               四城启动应援餐车巡游，打通游戏社群与快消零售的传播闭环。
