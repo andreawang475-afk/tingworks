@@ -1,13 +1,5 @@
-import type { NextConfig } from 'next';
+import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  output: 'export',
-  trailingSlash: true,
-  images: {
-    unoptimized: true,
-  },
-  basePath: '/tingworks',
-  assetPrefix: '/tingworks/',
-};
+const nextConfig: NextConfig = {};
 
 export default nextConfig;
