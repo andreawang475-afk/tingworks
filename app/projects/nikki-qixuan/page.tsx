@@ -47,7 +47,6 @@ export default function NikkiQixuanPage() {
             className="w-full h-full object-cover"
           />
           {/* 半透明遮罩 + 标签 */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
           <div className="absolute bottom-5 left-5 right-5 flex items-end justify-between">
             <div>
               <p className="text-white text-sm font-medium drop-shadow">
@@ -161,7 +160,7 @@ export default function NikkiQixuanPage() {
               </div>
               <div className="flex justify-between">
                 <dt className="text-gray-400">周期</dt>
-                <dd>2026.05 – 2026.08</dd>
+                <dd>2026.06 – 2026.07</dd>
               </div>
               <div className="flex justify-between">
                 <dt className="text-gray-400">年份</dt>
