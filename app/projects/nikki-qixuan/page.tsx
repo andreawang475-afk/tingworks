@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function NikkiQixuanPage() {
+export default function nikki-qixuan Page() {
   return (
     <main className="min-h-screen bg-[#F7F7F5] text-[#1A1A1A]">
       {/* 导航 */}
@@ -33,8 +33,8 @@ export default function NikkiQixuanPage() {
           无限暖暖 × 绮炫联动
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl">
-          当星河坠入绮境——《无限暖暖》× 绮炫冰淇淋联动项目，
-          用浓醇甜蜜打通游戏与快消的跨界想象。
+          负责联动活动主题制定、主视觉与周边设计、主题车巡游策划，
+          深度参与创意策划与品牌方执行对接。
         </p>
       </section>
 
@@ -51,9 +51,7 @@ export default function NikkiQixuanPage() {
             alt="无限暖暖×绮炫联动"
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
-          {/* 遮罩 */}
           <div className="absolute inset-0 bg-black/35 group-hover:bg-black/25 transition-colors" />
-          {/* 播放按钮 */}
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="w-20 h-20 rounded-full bg-white/90 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg">
               <svg className="w-8 h-8 text-[#FF6B35] ml-1" fill="currentColor" viewBox="0 0 24 24">
@@ -61,7 +59,6 @@ export default function NikkiQixuanPage() {
               </svg>
             </div>
           </div>
-          {/* 提示文字 */}
           <p className="absolute bottom-5 left-5 text-white text-sm font-medium drop-shadow">
             在小红书查看联动详情 →
           </p>
@@ -72,10 +69,10 @@ export default function NikkiQixuanPage() {
       <section className="max-w-6xl mx-auto px-8 pb-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
-            { num: "1.1万+", label: "小红书点赞" },
-            { num: "2600+", label: "评论互动" },
-            { num: "4 城", label: "应援餐车巡游" },
-            { num: "6/26", label: "联动开启日" },
+            { num: "1.1万+", label: "小红书主KV获赞" },
+            { num: "9000+", label: "联动首周预售量" },
+            { num: "4 城", label: "主题车巡游" },
+            { num: "全流程", label: "舆情应对参与" },
           ].map((d) => (
             <div key={d.label} className="bg-white rounded-2xl p-5 shadow-sm text-center">
               <p className="text-2xl font-bold text-[#FF6B35]">{d.num}</p>
@@ -92,19 +89,19 @@ export default function NikkiQixuanPage() {
           <div>
             <h2 className="text-2xl font-bold mb-3">项目背景</h2>
             <p className="text-gray-600 leading-relaxed">
-              作为市场品牌实习生，参与《无限暖暖》× 绮炫冰淇淋跨界联动项目。
-              项目以"星河坠入绮境"为主题，线上发售联名冰淇淋礼包
-              （含游戏道具兑换码及限定周边），线下在广州、南京、重庆、北京
-              四城启动应援餐车巡游，打通游戏社群与快消零售的传播闭环。
+              作为叠纸游戏《无限暖暖》市场品牌实习生，
+              深度参与《无限暖暖》× 伊利绮炫冰淇淋跨界联动项目。
+              负责活动主题制定、主视觉与周边设计、主题车巡游活动策划，
+              并全程跟进创意策划与品牌方执行对接。
             </p>
           </div>
 
           <div>
             <h2 className="text-2xl font-bold mb-3">我的角色</h2>
             <p className="text-gray-600 leading-relaxed">
-              担任 <strong>品牌营销项目执行</strong>，
-              参与联动 KV 创意策划、社交媒体内容发布与互动维护、
-              用户反馈收集与传播数据复盘。
+              担任 <strong>联动策划</strong>，
+              主导活动主题与主视觉创意方向，协调品牌方与设计团队推进周边落地，
+              并参与线下巡游活动的全流程执行与舆情危机应对。
             </p>
           </div>
 
@@ -112,24 +109,24 @@ export default function NikkiQixuanPage() {
             <h2 className="text-2xl font-bold mb-3">执行过程</h2>
             <ul className="space-y-3 text-gray-600 leading-relaxed list-disc pl-5">
               <li>
-                <strong>KV 创意策划：</strong>
-                参与联动主视觉"星河坠入绮境"的概念讨论与落地对接，
-                将游戏美术风格与绮炫品牌调性融合，确保跨平台视觉统一。
+                <strong>活动主题与主视觉：</strong>
+                制定联动核心主题，主导主视觉（KV）创意方向，
+                协调品牌方与设计团队完成周边设计与生产落地。
               </li>
               <li>
-                <strong>社交媒体运营：</strong>
-                在小红书等平台发布联动情报与应援内容，
-                配合话题 #无限暖暖绮炫联动 #星河坠入绮境 进行传播。
+                <strong>主题车巡游：</strong>
+                策划广州、南京、重庆、北京四城应援餐车巡游活动，
+                统筹路线规划、现场执行与社媒同步宣发。
               </li>
               <li>
-                <strong>用户互动与社群维护：</strong>
-                实时监控评论区舆情，回应玩家与消费者的疑问与反馈，
-                维护品牌口碑与社区氛围。
+                <strong>品牌方执行对接：</strong>
+                作为项目接口人，跟进创意策划到物料交付的全流程，
+                确保双方需求对齐与按时上线。
               </li>
               <li>
-                <strong>数据复盘：</strong>
-                  跟踪发布内容的曝光、点赞、评论与收藏数据，
-                  为后续联动活动优化投放策略提供依据。
+                <strong>舆情危机应对：</strong>
+                联动周边材质与宣传不符问题出现后，
+                跟进统一口径拟定、推动品牌方发布道歉公告并给出解决方案全流程。
               </li>
             </ul>
           </div>
@@ -137,9 +134,10 @@ export default function NikkiQixuanPage() {
           <div>
             <h2 className="text-2xl font-bold mb-3">成果与复盘</h2>
             <ul className="space-y-2 text-gray-600 leading-relaxed list-disc pl-5">
-              <li>小红书联动笔记获 <strong>1.1 万+ 赞</strong>，2600+ 条评论互动</li>
-              <li>四城应援餐车巡游顺利落地，线下打卡氛围热烈</li>
-              <li>完成从 KV 策划到社媒执行再到数据复盘的完整品牌联动闭环</li>
+              <li>小红书官方账号发布的联动主 KV 获赞 <strong>1.1 万+</strong></li>
+              <li>联动首周小红书预售量 <strong>9000+</strong></li>
+              <li>四城主题车巡游顺利落地，线上线下联动传播闭环</li>
+              <li>完整经历"策划 → 执行 → 危机应对"的品牌联动全生命周期</li>
             </ul>
           </div>
         </div>
@@ -151,7 +149,7 @@ export default function NikkiQixuanPage() {
             <dl className="text-sm space-y-2">
               <div className="flex justify-between">
                 <dt className="text-gray-400">类型</dt>
-                <dd>品牌营销 / 跨界联动</dd>
+                <dd>品牌联动 / 市场策划</dd>
               </div>
               <div className="flex justify-between">
                 <dt className="text-gray-400">周期</dt>
@@ -163,7 +161,7 @@ export default function NikkiQixuanPage() {
               </div>
               <div className="flex justify-between">
                 <dt className="text-gray-400">角色</dt>
-                <dd>品牌营销实习</dd>
+                <dd>联动策划</dd>
               </div>
             </dl>
           </div>
@@ -171,7 +169,7 @@ export default function NikkiQixuanPage() {
           <div className="bg-white rounded-2xl p-6 shadow-sm">
             <h3 className="font-bold mb-3">标签</h3>
             <div className="flex flex-wrap gap-2">
-              {["品牌联名", "社交媒体", "KV 策划", "互动运营"].map((t) => (
+              {["品牌联动", "KV 策划", "线下活动", "舆情应对"].map((t) => (
                 <span key={t} className="text-xs px-2 py-1 rounded-full bg-gray-100 text-gray-600">
                   {t}
                 </span>
@@ -180,10 +178,10 @@ export default function NikkiQixuanPage() {
           </div>
 
           <div className="bg-white rounded-2xl p-6 shadow-sm">
-            <h3 className="font-bold mb-3">联动主题</h3>
+            <h3 className="font-bold mb-3">关键数据</h3>
             <p className="text-sm text-gray-600 leading-relaxed">
-              「星河坠入绮境」<br />
-              线上联名礼包 + 四城应援餐车巡游
+              小红书 KV 1.1 万赞<br />
+              首周预售 9000+
             </p>
           </div>
         </aside>
