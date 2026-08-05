@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function nikki-qixuan Page() {
+export default function NikkiQixuanPage() {
   return (
     <main className="min-h-screen bg-[#F7F7F5] text-[#1A1A1A]">
       {/* 导航 */}
