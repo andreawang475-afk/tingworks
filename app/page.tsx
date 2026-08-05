@@ -62,36 +62,52 @@ export default function Home() {
             </div>
           </div>
 
-          {/* 右侧视频封面拼贴（真实图片） */}
-          <div className="relative">
-            {/* 逃离伊甸园 */}
-            <div className="bg-white rounded-2xl shadow-lg p-3 rotate-2 hover:rotate-0 transition-transform">
-              <img
-                src="/eden.jpg"
-                alt="逃离伊甸园"
-                className="rounded-xl aspect-video object-cover w-full"
-              />
-              <p className="text-xs text-gray-400 mt-2 px-1">
-                《逃离伊甸园》编剧 + 视频制作 · 海峡杯三等奖
-              </p>
-            </div>
-
-            {/* 无限暖暖×伊利绮炫冰淇淋联动 */}
-            <div className="relative aspect-[4/3] bg-gray-200">
-              <img
-                src="/nikki-qixuan.png"
-                alt="无限暖暖×绮炫联动"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                 <p className="text-xs text-white/70">品牌营销 · 2026</p>
-                 <p className="font-bold text-lg">无限暖暖 × 绮炫联动</p>
-                 <p className="text-xs text-white/80 mt-1">
-                   联动 KV 小红书获 1.1 万赞 · 首周预售 9000+
-                 </p>
+         {/* 右侧视频封面拼贴 */}
+         <div className="relative">
+           {/* 逃离伊甸园 */}
+           <div className="bg-white rounded-2xl shadow-lg p-3 rotate-2 hover:rotate-0 transition-transform">
+             <Link href="/projects/eden">
+               <div className="relative aspect-video rounded-xl overflow-hidden">
+                 <img
+                   src="/eden.jpg"
+                   alt="逃离伊甸园"
+                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                 />
+                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                 <div className="absolute bottom-3 left-3 right-3 text-white">
+                   <p className="text-xs text-white/80">AIGC 短片 · 2025</p>
+                   <p className="font-bold text-base leading-tight">《逃离伊甸园》</p>
+                   <p className="text-xs text-white/80 mt-0.5">
+                     编剧 + 视频制作 · 海峡杯三等奖
+                   </p>
+                 </div>
                </div>
-            </div>
+             </Link>
+           </div>
+
+           {/* 无限暖暖 × 绮炫冰淇淋联动 */}
+           <div className="bg-white rounded-2xl shadow-lg p-3 -rotate-2 mt-6 ml-8 hover:rotate-0 transition-transform">
+             <Link href="/projects/nikki-qixuan">
+               <div className="relative aspect-[4/3] rounded-xl overflow-hidden">
+                 <img
+                   src="/nikki-qixuan.png"
+                   alt="无限暖暖 × 绮炫冰淇淋联动"
+                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                 />
+                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
+                 <div className="absolute bottom-3 left-3 right-3 text-white">
+                   <p className="text-xs text-white/80">品牌营销 · 2026</p>
+                   <p className="font-bold text-base leading-tight">
+                     无限暖暖 × 绮炫冰淇淋联动
+                   </p>
+                   <p className="text-xs text-white/80 mt-0.5">
+                     小红书 1.1 万赞 · 首周预售 9000+
+                   </p>
+                 </div>
+               </div>
+             </Link>
+           </div>
+         </div>
       </section>
 
       {/* 底部 */}
