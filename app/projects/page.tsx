@@ -14,7 +14,7 @@ type Project = {
 const projects: Project[] = [
   {
     slug: "nikki-qixuan",
-    title: "无限暖暖 × 伊利绮炫联动",
+    title: "无限暖暖 × 伊利绮炫冰淇淋联动",
     subtitle: "品牌营销项目",
     role: "市场品牌实习",
     tags: ["品牌联动", "市场", "视觉"],
