@@ -30,7 +30,7 @@ export default function NikkiQixuanPage() {
       <section className="max-w-6xl mx-auto px-8 pt-6 pb-10">
         <p className="text-[#FF6B35] font-medium text-sm mb-2">品牌营销 · 2026</p>
         <h1 className="text-5xl font-bold leading-tight mb-4">
-          无限暖暖 × 绮炫联动
+          无限暖暖 × 伊利绮炫冰淇淋联动
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl">
           从 0 到 1 策划「星河坠入绮境」跨界联动——
