@@ -76,19 +76,22 @@ export default function Home() {
               </p>
             </div>
 
-            {/* 咖香漫归途 */}
-            <div className="bg-white rounded-2xl shadow-lg p-3 -rotate-2 mt-6 ml-8 hover:rotate-0 transition-transform">
+            {/* 无限暖暖×伊利绮炫冰淇淋联动 */}
+            <div className="relative aspect-[4/3] bg-gray-200">
               <img
-                src="/coffee.png"
-                alt="咖香漫归途"
-                className="rounded-xl aspect-video object-cover w-full"
+                src="/nikki-qixuan.png"
+                alt="无限暖暖×绮炫联动"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
-              <p className="text-xs text-gray-400 mt-2 px-1">
-                《咖香漫归途》策划 + 录音 · 人文湾区影像训练营
-              </p>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+              <div className="absolute bottom-4 left-4 right-4 text-white">
+                 <p className="text-xs text-white/70">品牌营销 · 2026</p>
+                 <p className="font-bold text-lg">无限暖暖 × 绮炫联动</p>
+                 <p className="text-xs text-white/80 mt-1">
+                   联动 KV 小红书获 1.1 万赞 · 首周预售 9000+
+                 </p>
+               </div>
             </div>
-          </div>
-        </div>
       </section>
 
       {/* 底部 */}
