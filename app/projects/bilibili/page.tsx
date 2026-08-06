@@ -72,7 +72,7 @@ export default function BilibiliPage() {
           {[
             { num: "131.6万+", label: "累计播放量" },
             { num: "5023", label: "粉丝数" },
-            { num: "162", label: "投稿数" },
+            { num: "81", label: "投稿数" },
             { num: "24.9万", label: "单条最高播放" },
           ].map((d) => (
             <div key={d.label} className="bg-white rounded-2xl p-5 shadow-sm text-center">
@@ -175,7 +175,7 @@ export default function BilibiliPage() {
           <div className="bg-white rounded-2xl p-6 shadow-sm">
             <h3 className="font-bold mb-3">代表作</h3>
             <p className="text-sm text-gray-600 leading-relaxed">
-              「少女番挖宝」系列 · 162 条投稿<br/>
+              「少女番挖宝」系列 · 81 条投稿<br/>
               单条峰值 24.9 万播放
             </p>
           </div>
