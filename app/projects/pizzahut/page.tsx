@@ -47,9 +47,7 @@ export default function PizzahutPage() {
               src="https://player.bilibili.com/player.html?isOutside=true&aid=117042103453674&bvid=BV15sMk6vEdV&cid=40617708450&p=1"
               className="w-full h-full"
               scrolling="no"
-              border={0}
               frameBorder="no"
-              framespacing="0"
               allowFullScreen
             />
           </div>
@@ -59,8 +57,8 @@ export default function PizzahutPage() {
         <div className="max-w-none">
           <h2 className="text-2xl font-bold mb-4">项目背景</h2>
           <p className="text-gray-700 leading-relaxed mb-6">
-            联动 PV 作为《无限暖暖》与必胜客跨界联动的核心视觉物料，
-            兼顾 IP 调性与餐饮消费场景的趣味性。
+            《无限暖暖》与必胜客的跨界联动 PV，负责脚本撰写、原画跟进与视频制作全流程，
+            将游戏版本剧情与必胜客的美食场景无缝衔接。
           </p>
 
           <h2 className="text-2xl font-bold mb-4">我的职责</h2>
@@ -71,16 +69,21 @@ export default function PizzahutPage() {
           </ul>
 
           <h2 className="text-2xl font-bold mb-4 mt-8">项目数据</h2>
-          <div className="grid grid-cols-3 gap-4 mb-8">
+          <div className="grid grid-cols-2 gap-4 mb-8">
             <div className="bg-white rounded-xl p-4 text-center shadow-sm">
               <div className="text-2xl font-bold text-[#FF6B35]">66万+</div>
               <div className="text-xs text-gray-500 mt-1">微博首日播放</div>
+            </div>
+            <div className="bg-white rounded-xl p-4 text-center shadow-sm">
+              <div className="text-2xl font-bold text-[#FF6B35]">82家</div>
+              <div className="text-xs text-gray-500 mt-1">线下主题门店参与</div>
             </div>
           </div>
 
           <h2 className="text-2xl font-bold mb-4">项目亮点</h2>
           <p className="text-gray-700 leading-relaxed">
-            将游戏版本剧情与必胜客的美食场景无缝衔接，在有限时长内完成品牌记忆植入。
+            联动相关内容在全平台形成自发传播，
+            线下主题门店同步落地，实现线上线下联动闭环。
           </p>
         </div>
       </section>
