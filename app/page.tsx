@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -74,8 +73,42 @@ export default function Home() {
 
           {/* 右侧视频封面拼贴 */}
           <div className="relative">
-            {/* 逃离伊甸园 */}
+            {/* 必胜客 PV */}
             <div className="bg-white rounded-2xl shadow-lg p-3 rotate-2 hover:rotate-0 transition-transform">
+              <Link href="/projects/pizzahut">
+                <div className="relative aspect-video rounded-xl overflow-hidden">
+                  <img
+                    src="/pizzahut-cover.jpg"
+                    alt="无限暖暖 × 必胜客联动 PV"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="w-14 h-14 rounded-full bg-white/90 flex items-center justify-center shadow-lg">
+                      <svg
+                        className="w-6 h-6 text-[#FF6B35] ml-1"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
+                  <div className="absolute bottom-3 left-3 right-3 text-white">
+                    <p className="text-xs text-white/80">品牌营销 · 2026</p>
+                    <p className="font-bold text-base leading-tight">
+                      无限暖暖 × 必胜客联动 PV
+                    </p>
+                    <p className="text-xs text-white/80 mt-0.5">
+                      微博首日播放 66 万
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            </div>
+
+            {/* 逃离伊甸园 */}
+            <div className="bg-white rounded-2xl shadow-lg p-3 -rotate-2 mt-6 ml-8 hover:rotate-0 transition-transform">
               <Link href="/projects/eden">
                 <div className="relative aspect-video rounded-xl overflow-hidden">
                   <img
@@ -91,29 +124,6 @@ export default function Home() {
                     </p>
                     <p className="text-xs text-white/80 mt-0.5">
                       编剧 + 视频制作 · 海峡杯三等奖
-                    </p>
-                  </div>
-                </div>
-              </Link>
-            </div>
-
-            {/* 无限暖暖 × 绮炫冰淇淋联动 */}
-            <div className="bg-white rounded-2xl shadow-lg p-3 -rotate-2 mt-6 ml-8 hover:rotate-0 transition-transform">
-              <Link href="/projects/nikki-qixuan">
-                <div className="relative aspect-[4/3] rounded-xl overflow-hidden">
-                  <img
-                    src="/nikki-qixuan.png"
-                    alt="无限暖暖 × 绮炫冰淇淋联动"
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
-                  <div className="absolute bottom-3 left-3 right-3 text-white">
-                    <p className="text-xs text-white/80">品牌营销 · 2026</p>
-                    <p className="font-bold text-base leading-tight">
-                      无限暖暖 × 绮炫冰淇淋联动
-                    </p>
-                    <p className="text-xs text-white/80 mt-0.5">
-                      小红书 1.1 万赞 · 首周预售 9000+
                     </p>
                   </div>
                 </div>
