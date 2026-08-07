@@ -73,7 +73,7 @@ export default function Home() {
 
           {/* 右侧视频封面拼贴 */}
           <div className="relative">
-            {/* 必胜客 PV */}
+            {/* 必胜客 PV（无播放按钮） */}
             <div className="bg-white rounded-2xl shadow-lg p-3 rotate-2 hover:rotate-0 transition-transform">
               <Link href="/projects/pizzahut">
                 <div className="relative aspect-video rounded-xl overflow-hidden">
@@ -82,17 +82,6 @@ export default function Home() {
                     alt="无限暖暖 × 必胜客联动 PV"
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-14 h-14 rounded-full bg-white/90 flex items-center justify-center shadow-lg">
-                      <svg
-                        className="w-6 h-6 text-[#FF6B35] ml-1"
-                        fill="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M8 5v14l11-7z" />
-                      </svg>
-                    </div>
-                  </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
                   <div className="absolute bottom-3 left-3 right-3 text-white">
                     <p className="text-xs text-white/80">品牌营销 · 2026</p>
