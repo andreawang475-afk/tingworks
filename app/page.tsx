@@ -73,7 +73,7 @@ export default function Home() {
 
           {/* 右侧视频封面拼贴 */}
           <div className="relative">
-            {/* 必胜客 PV（无播放按钮） */}
+            {/* 必胜客 PV */}
             <div className="bg-white rounded-2xl shadow-lg p-3 rotate-2 hover:rotate-0 transition-transform">
               <Link href="/projects/pizzahut">
                 <div className="relative aspect-video rounded-xl overflow-hidden">
