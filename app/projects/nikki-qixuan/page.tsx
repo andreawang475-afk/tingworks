@@ -57,7 +57,7 @@ export default function NikkiQixuanPage() {
               </p>
             </div>
             <span className="text-xs px-3 py-1 rounded-full bg-white/20 text-white backdrop-blur-sm">
-              小红书 1.1 万赞
+              起宣主KV帖全网 2.6 万赞
             </span>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function NikkiQixuanPage() {
       <section className="max-w-6xl mx-auto px-8 pb-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
-            { num: "1.1万+", label: "小红书点赞" },
+            { num: "2.6万+", label: "全网点赞" },
             { num: "9000+", label: "首周预售量" },
             { num: "4 城", label: "应援餐车巡游" },
             { num: "全流程", label: "舆情危机处理" },
@@ -141,7 +141,7 @@ export default function NikkiQixuanPage() {
           <div>
             <h2 className="text-2xl font-bold mb-3">成果与复盘</h2>
             <ul className="space-y-2 text-gray-600 leading-relaxed list-disc pl-5">
-              <li>小红书联动笔记获 <strong>1.1 万+ 赞</strong>，互动量 2600+</li>
+              <li>全网联动起宣帖获 <strong>2.6 万+ 赞</strong></li>
               <li>联动首周小红书预售量突破 <strong>9000+</strong></li>
               <li>四城应援餐车巡游顺利落地，线下打卡氛围热烈</li>
               <li>成功处理周边材质舆情危机，完整跑通「预防-应对-善后」的公关闭环</li>
